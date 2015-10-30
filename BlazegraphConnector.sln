@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazegraphConnector", "BlazegraphConnector\BlazegraphConnector.csproj", "{B243D22A-2812-4774-BFF7-194C4AC574E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazegraphConnectorExamples", "BlazegraphConnectorExamples\BlazegraphConnectorExamples.csproj", "{4B7DCF9D-3659-4E76-B830-F28C027C6450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B243D22A-2812-4774-BFF7-194C4AC574E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B243D22A-2812-4774-BFF7-194C4AC574E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B243D22A-2812-4774-BFF7-194C4AC574E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B243D22A-2812-4774-BFF7-194C4AC574E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7DCF9D-3659-4E76-B830-F28C027C6450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7DCF9D-3659-4E76-B830-F28C027C6450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7DCF9D-3659-4E76-B830-F28C027C6450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7DCF9D-3659-4E76-B830-F28C027C6450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
