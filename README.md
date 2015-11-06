@@ -1,7 +1,7 @@
 
 # dotNetRDF-blazegraph
 Blazegraph connector using dotNetRDF
-# Features support matrix
+# Features Support Matrix
 
 <table cellpadding="0" cellspacing="0">
 	<colgroup>
