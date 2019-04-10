@@ -479,14 +479,14 @@ Blazegraph connector using dotNetRDF
 	</tr>
 </table>
 
-#Usage
+# Usage
 
 Download dll’s from the link and add to the project or include them by the NuGet.
 Look at the https://bitbucket.org/dotnetrdf/dotnetrdf/wiki/User%20Guide dotNetRDF documentation.
 
 Examples of using Blazegraph connector:
 
-#Create new graph
+# Create new graph
 
 BlazegraphConnector connector = new BlazegraphConnector("http://localhost:9999/bigdata/");
 
@@ -502,12 +502,12 @@ newGraph.Assert(triple);
 
 connector.SaveGraph(newGraph);
 
-#Load graph
+# Load graph
 
 Graph loadGraph = new Graph();
 connector.LoadGraph(loadGraph, UriFactory.Create("http://example/bookStore"));
 
-#Update graph
+# Update graph
 
 Triple triple2remove = new Triple(
     newGraph.CreateUriNode(UriFactory.Create("http://example/book1")),
@@ -525,11 +525,11 @@ connector.UpdateGraph(
     new List<Triple>() { triple2remove }
 );
 
-#Delete graph
+# Delete graph
 
 connector.DeleteGraph(UriFactory.Create("http://example/bookStore"));
 
-#Query
+# Query
 
 SparqlResultSet resultSet = (SparqlResultSet)connector.Query("SELECT * { ?s ?p ?o }");
 foreach (SparqlResult result in resultSet.Results) {
